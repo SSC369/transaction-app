@@ -1,0 +1,44 @@
+.list-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.list-item-container {
+  display: flex;
+  align-items: center;
+  border: 2px solid #d7dfe9;
+  border-top: none;
+  width: 100%;
+}
+.list-title {
+  margin-left: 10px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  color: #334155;
+  font-size: 16px;
+  font-weight: 400;
+}
+.list-type {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  color: #334155;
+  font-size: 14px;
+  font-weight: 400;
+}
+.list-amount {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  color: #334155;
+  font-size: 14px;
+  font-weight: 400;
+}
+.delete-icon {
+  height: 20px;
+}
+.delete-button {
+  padding-left: 0;
+
+  background-color: transparent;
+  border-width: 0;
+}
